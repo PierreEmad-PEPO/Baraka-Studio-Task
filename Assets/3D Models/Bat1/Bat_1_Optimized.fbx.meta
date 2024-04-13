@@ -3,7 +3,12 @@ guid: f9354c2b524559a44b9b5c47d5d83466
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: material_atlas_00003_1
+    second: {fileID: 2100000, guid: 7e55f5ee3a2e80741b1df6f8d666b27e, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -34,7 +39,9 @@ ModelImporter:
     clipAnimations: []
     isReadable: 0
   meshes:
-    lODScreenPercentages: []
+    lODScreenPercentages:
+    - 0.25
+    - 0.01
     globalScale: 1
     meshCompression: 0
     addColliders: 0
